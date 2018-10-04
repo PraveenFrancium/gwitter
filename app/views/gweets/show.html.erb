@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @gweet.post %>
+
+</p>
+<p>
+  <strong>Posted by:</strong>
+  <%= @gweet.user.email %>
+
+  <button class="button"> Likes </button>
+  </p>
+
+<%= link_to 'Edit', edit_gweet_path(@gweet) %> |
+<%= link_to 'Back', gweets_path %>
+
+
+
+  
